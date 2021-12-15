@@ -1,0 +1,59 @@
+:root{
+    --black: rgb(209, 167, 105);
+    --white: rgb(124, 123, 123);
+    --red: rgb(202,199,159);
+
+}
+*{margin: 0;padding: 0;}
+
+body{font-family: Arial, Helvetica, sans-serif;}
+
+.header-relleno{
+    height: 70px;
+    background: none;
+}
+
+header{
+    width: 100%;
+    background-image: linear-gradient(to top,rgb(218, 191, 120), rgb(219, 190, 96) );
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 300;
+    position: fixed;
+}
+
+.logo__africa{
+    height: 50px;
+    padding-left: 20px;
+}
+
+.nav__container{
+    width: 40%;
+}
+
+.nav__container ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__container li{
+    list-style: none;
+}
+
+.nav__container a{
+    text-decoration: none;
+    color: var(--white);
+    padding: 9px 8px;
+    transition: all .3s;
+}
+
+.nav__container a:hover{
+    background: var(--white);
+    color: var(--black);
+    font-weight: 400;
+}
